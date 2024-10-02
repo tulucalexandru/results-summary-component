@@ -1,0 +1,28 @@
+@import './colors';
+@import './typography';
+
+.card {
+    @include bg-gradient-2;
+    border-radius: 50%;
+    width: 140px;
+    height: 140px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 24px;
+    margin-bottom: 24px;
+
+    & > h1 {
+        @include HeadingXL;
+        color: white;
+        display: block;
+    }
+
+    & > p {
+        @include Body_Bold;
+        color: $LightBlue;
+        opacity: 0.5168;
+        display: block;
+    }
+}

@@ -1,0 +1,11 @@
+$LightBlue: #CAC9FF;
+$Yellow: #FFB21E;
+$Blue: #1125D6;
+
+@mixin bg-gradient-1 {
+    background: linear-gradient(180deg, #75F 0%, #6943FF 0.01%, #2F2CE9 100%);
+}
+
+@mixin bg-gradient-2 {
+    background: linear-gradient(180deg, #4D21C9 0%, rgba(37, 33, 201, 0.00) 100%, rgba(37, 33, 201, 0.00) 100%);
+}

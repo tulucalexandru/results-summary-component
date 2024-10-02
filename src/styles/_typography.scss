@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&display=swap');
+
+@mixin HeadingM {
+/* Heading M */
+font-family: 'Hanken Grotesk';
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+
+
+
+@mixin HeadingL {
+/* Heading L */
+font-family: "Hanken Grotesk";
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+
+@mixin HeadingXL {
+/* Heading L */
+font-family: "Hanken Grotesk";
+font-size: 56px;
+font-style: normal;
+font-weight: 800;
+line-height: 72px; /* 100% */
+}
+
+@mixin Body_Bold {
+    /* Body (Bold) */
+font-family: "Hanken Grotesk";
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+
+@mixin Body {
+    /* Body (Bold) */
+font-family: "Hanken Grotesk";
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
