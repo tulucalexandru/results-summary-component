@@ -46,6 +46,8 @@ color: $Red;
 @media (min-width: $Desktop) {
     .card {
         max-width: 368px;
+        padding-top: 38px;
+        padding-bottom: 55px;
         & > p {
             margin-right: 54px;
             margin-left: 54px;
