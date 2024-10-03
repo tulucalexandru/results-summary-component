@@ -21,6 +21,7 @@
 
     & > h1 {
         @include HeadingM;
+        color: $DarkNavy;
         justify-self: flex-start;
         margin-bottom: 24px;
     }
