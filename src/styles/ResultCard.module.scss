@@ -4,18 +4,16 @@
 .card {
     @include bg-gradient-1;
     display: flex;
-    position:fixed;
     flex-direction: column;
-    width: 100%;
-    flex-grow: 5;
+    // width: 100%;
     align-items: center;
     justify-content: space-between;
-    margin-bottom: 453px;
     padding-top: 24px;
     padding-bottom: 40px;
     box-sizing: border-box;
     border-radius: 0px 0px 32px 32px;
     box-shadow: 0px 30px 60px 0px rgba(61, 108, 236, 0.15);
+:where
 
     & > h1 {
         @include HeadingM;
@@ -37,4 +35,9 @@
         width: 260px;
         text-align: center;
     }
+}
+
+.reaction {
+@include red-95-white;
+color: $Red;
 }

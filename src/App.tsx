@@ -1,6 +1,7 @@
-import './styles/App.scss'
 import ResultCard from './components/ResultCard'
+import SummaryCard from './components/SummaryCard'
 import Card from './components/Card'
+import './styles/App.scss';
 
 function App() {
 
@@ -8,6 +9,7 @@ function App() {
     <Card>
       <ResultCard>
       </ResultCard>
+      <SummaryCard></SummaryCard>
     </Card>
   )
 }

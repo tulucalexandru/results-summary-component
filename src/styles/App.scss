@@ -1,3 +1,5 @@
+@import './colors';
+
 @font-face {
   font-family: 'Hanken Grotesk', serif;
   src: url(./assets/fonts/HankenGrotesk-VariableFont_wght.ttf);
@@ -19,6 +21,7 @@ time, mark, audio, video {
 	margin: 0;
 	padding: 0;
 	border: 0;
+	box-sizing: border-box;
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
@@ -51,6 +54,7 @@ table {
 
 #root {
   font-family: 'Hanken Grotesk';
-  max-width: 1280px;
   margin: 0 0;
 }
+
+

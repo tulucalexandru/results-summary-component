@@ -1,0 +1,37 @@
+@import './colors';
+@import './typography';
+
+
+
+.card {
+    border-radius: 12px;
+    -moz-border-radius: 12px;
+    -webkit-border-radius: 12px;
+    -khtml-border-radius: 12px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 16px 18px 16px 18px;
+
+    img {
+        width: 20px;
+        height: 20px;
+        margin-right: 12px;
+    }
+
+    & > h1 {
+        @include Body;
+    }
+
+    & > p {
+        @include Body_Bold;
+        color: $DarkNavy;
+        justify-self: flex-end;
+        margin-left: auto;
+    }
+
+    &  em {
+        opacity: 0.5;
+    }
+}

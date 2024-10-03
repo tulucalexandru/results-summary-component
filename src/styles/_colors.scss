@@ -1,6 +1,10 @@
 $LightBlue: #CAC9FF;
 $Yellow: #FFB21E;
 $Blue: #1125D6;
+$Red:  #F55;
+$Green: #00BB8F; 
+$DarkNavy: #303B59;
+$VeryLightBlue: #ECF2FF;
 
 @mixin bg-gradient-1 {
     background: linear-gradient(180deg, #75F 0%, #6943FF 0.01%, #2F2CE9 100%);
@@ -8,4 +12,22 @@ $Blue: #1125D6;
 
 @mixin bg-gradient-2 {
     background: linear-gradient(180deg, #4D21C9 0%, rgba(37, 33, 201, 0.00) 100%, rgba(37, 33, 201, 0.00) 100%);
+}
+
+
+@mixin red-95-white {
+background-color: rgba(255, 85, 85, 0.05);
+}
+
+
+@mixin green-95-white {
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.95) 0%, rgba(255, 255, 255, 0.95) 100%), #00BB8F;
+}
+
+@mixin blue-95-white {
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.95) 0%, rgba(255, 255, 255, 0.95) 100%), #1125D6;
+}
+
+@mixin yellow-95-white {
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.95) 0%, rgba(255, 255, 255, 0.95) 100%), #FFB21E;
 }
