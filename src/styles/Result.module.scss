@@ -1,5 +1,6 @@
 @import './colors';
 @import './typography';
+@import './screens';
 
 .card {
     @include bg-gradient-2;
@@ -24,5 +25,12 @@
         color: $LightBlue;
         opacity: 0.5168;
         display: block;
+    }
+}
+
+@media (min-width: $Desktop) {
+    .card {
+        width: 200px;
+        height: 200px;
     }
 }

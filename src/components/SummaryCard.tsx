@@ -10,6 +10,8 @@ const SummaryCard = () => {
     return (
         <Card className={styles.card}>
             <h1>Summary</h1>
+            <Card className={styles.categoryCard}>
+
             <CategoryCard className={styles.reaction}>
                 <img src={reaction_logo} alt="reaction" />
                 <h1>Reaction</h1>
@@ -30,6 +32,7 @@ const SummaryCard = () => {
                 <h1>Visual</h1>
                 <p>73 <em> / 100</em></p>
             </CategoryCard>
+            </Card>
             <button>Continue</button>
             
             
