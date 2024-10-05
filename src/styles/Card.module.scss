@@ -1,6 +1,7 @@
-@import './_typography';
+@import "./_typography";
 
 .title {
-    @include HeadingXL;
-    display: block;
+  @include HeadingXL;
+  display: block;
 }
+
